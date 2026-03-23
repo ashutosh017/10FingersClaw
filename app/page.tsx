@@ -152,7 +152,7 @@ export default function Home() {
       {time === 0 && start === false && (
         <div className="border w-1/5 p-2  mx-32 my-16">
           <h2 className="font-extrabold text-3xl p-4">
-            {correctWords + wrongWords}
+            {correctWords + wrongWords} WPM
           </h2>
           <div className="grid grid-cols-2 px-4 pb-4">
             <span>Keystrokes</span>
