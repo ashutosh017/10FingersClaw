@@ -54,7 +54,9 @@ export default function Home() {
     <div className="container mx-auto">
       <div className="flex justify-end mx-32 items-center mt-8">
         <Link
-          href={""}
+          target="_blank"
+          rel="noopener noreferrer"
+          href={"https://github.com/ashutosh017/10FingersClaw"}
           className="bg-white rounded-full px-4 py-2 text-black w-fit flex items-center cursor-pointer"
         >
           Give it a star
